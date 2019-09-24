@@ -7,7 +7,8 @@ An advanced starter template for building a static Jigsaw blog hosted on Netlify
 
 This template has extremely minimal CSS.
 
-___
+---
+
 ## General details and features
 
 - Static site generator: [Jigsaw](http://jigsaw.tighten.co) (Laravel Blade templates)
@@ -23,7 +24,8 @@ ___
 - Comments: [Disqus](https://disqus.com)
 - Contact form: [Jumprock](https://jumprock.co)
 
-___
+---
+
 ## Getting started
 
 Use this deploy button to get your own copy of the repository.
@@ -40,27 +42,30 @@ Accept the invite, set your password, then navigate to `/admin` on your site to 
 
 Now you're all set, and you can start customizing your static site!
 
-___
+---
+
 ## Local development
 
 After using the deploy button above, clone **your copy** of the repository and run:
 
 ```shell
-$ composer install
+$ php composer.phar install
 $ yarn install
 $ yarn watch
 ```
 
 Your browser will open [localhost:3000](http://localhost:3000/) automatically.
 
-___
+---
+
 ## Configuration
 
 The default posts included in this template contain short guides on how to configure or implement some of its features.
 
 When you use the 3rd-party services recommended by this template, make sure to read the docs of that specific service.
 
-___
+---
+
 ## License
 
 Released under the [MIT License](https://oss.ninja/mit/raniesantos).
